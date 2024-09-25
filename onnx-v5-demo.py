@@ -126,7 +126,7 @@ def plot_boxes_cv2(img, det_result, class_names=None):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-m', '--model', type=str, default="yolov5s.onnx",
+    parser.add_argument('-m', '--model', type=str, default="yolov10s.onnx",
                         help='model file')
     parser.add_argument('-i', '--input', type=str, default="dog.jpg",
                         help='input image')
